@@ -19,18 +19,22 @@
         height: auto;
     }
 
+    &__title,
+    &__description {
+        padding-inline: 1rem;
+    }
+
     &__title {
         color: var(--text-color-darkBlue);
         font-size: 1.375rem;
         font-weight: 700;
-        padding-inline: 1rem;
+
     }
 
     &__description {
         color: var(--text-color-grayishBlue);
         font-size: .9375rem;
         font-weight: 400;
-        padding-inline: 1rem;
         padding-bottom: .5625rem;
     }
 }
