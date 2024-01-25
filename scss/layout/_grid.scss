@@ -31,6 +31,7 @@
         font-size: .9375rem;
         font-weight: 400;
         padding-inline: 1rem;
+        padding-bottom: .5625rem;
     }
 }
 
@@ -39,4 +40,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    a:visited {
+        color: var(--text-color-darkBlue);
+    }
 }
