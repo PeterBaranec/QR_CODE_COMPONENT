@@ -11,7 +11,7 @@
     width: min(100%, 20rem);
     height: auto;
     padding: 1rem;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 20px 24px;
 
     &__image {
         width: min(100%, 18rem);
@@ -33,7 +33,7 @@
 
     &__description {
         color: var(--text-color-grayishBlue);
-        font-size: .96rem;
+        font-size: 1rem;
         font-weight: 400;
         margin-top: 1rem;
         padding-bottom: 1.5rem;
